@@ -26,7 +26,7 @@ public class Mitarbeiter {
 			case "#yearOfEntry":
 				return String.valueOf(yearOfEntry);
 			default:
-				return "error getInfo"; 
+				return "error to getInfo"; 
 		}
 		
 	}

@@ -2,10 +2,10 @@ package com.cc.java;
 
 public class Mitarbeiter {
 	
-	private String familyName ;
+	private String familyName;
 	private String firstName;
-	private String role ;
-	private int yearOfEntry ;
+	private String role;
+	private int yearOfEntry;
 	
 	public Mitarbeiter(String familyName, String firstName, String role, int yearOfEntry) {
 		this.familyName = familyName;
@@ -19,7 +19,7 @@ public class Mitarbeiter {
 		switch (opInfo) {
 			case "#familyName":
 				return familyName;	
-			case "#firstname":
+			case "#firstName":
 				return firstName;
 			case "#role":
 				return role;
